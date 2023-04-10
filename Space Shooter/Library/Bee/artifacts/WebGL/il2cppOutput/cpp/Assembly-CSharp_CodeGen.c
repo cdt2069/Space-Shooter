@@ -1,0 +1,173 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void BoundsCheck::Awake()
+extern void BoundsCheck_Awake_mEF422329B76307B7C586A79853A32E8DAFB19F08 (void);
+// 0x00000002 System.Void BoundsCheck::LateUpdate()
+extern void BoundsCheck_LateUpdate_m360F5EFE7EF0C3F52892DA1FD0197118A0DE43C2 (void);
+// 0x00000003 System.Boolean BoundsCheck::get_isOnScreen()
+extern void BoundsCheck_get_isOnScreen_m0DA4539B3F6D6613334D03786C1C889452138ACC (void);
+// 0x00000004 System.Boolean BoundsCheck::LocIs(BoundsCheck/eScreenLocs)
+extern void BoundsCheck_LocIs_mD7F85EF6E6B538E5584F40DA42B379A68D32EAF8 (void);
+// 0x00000005 System.Void BoundsCheck::.ctor()
+extern void BoundsCheck__ctor_m2B113074A041060F4F73AE365C11E463F7FD1E59 (void);
+// 0x00000006 System.Void Enemy::Awake()
+extern void Enemy_Awake_mB58E74200229275689E6D9ADCDB6443D4E426624 (void);
+// 0x00000007 UnityEngine.Vector3 Enemy::get_pos()
+extern void Enemy_get_pos_mDBC4E8473067C4EA46ED6CB891F02283126CDC32 (void);
+// 0x00000008 System.Void Enemy::set_pos(UnityEngine.Vector3)
+extern void Enemy_set_pos_m7DF5806ADB5012A9823738057BA3D0CDBFD7B762 (void);
+// 0x00000009 System.Void Enemy::Update()
+extern void Enemy_Update_m4149CFC3AC081AF0D654D9BDB6BC9B5540CE03D8 (void);
+// 0x0000000A System.Void Enemy::Move()
+extern void Enemy_Move_mC9846B6F1E720BD702338E14556D69034C01C597 (void);
+// 0x0000000B System.Void Enemy::OnCollisionEnter(UnityEngine.Collision)
+extern void Enemy_OnCollisionEnter_mA8E3F644B8068B1BA5496C6AD2E43A65EBA978DB (void);
+// 0x0000000C System.Void Enemy::.ctor()
+extern void Enemy__ctor_mB6697627910F785A971C20C671DEFBA9D921D933 (void);
+// 0x0000000D Hero Hero::get_S()
+extern void Hero_get_S_mA827398B6A611A0C6348416DF8ABD0AFA60EE437 (void);
+// 0x0000000E System.Void Hero::set_S(Hero)
+extern void Hero_set_S_m2315DD9324673B58B7D28FE93F4D21D65D2F63AE (void);
+// 0x0000000F System.Void Hero::Awake()
+extern void Hero_Awake_mBD288117C2AC749DF3A898A9040E4C013DB60418 (void);
+// 0x00000010 System.Void Hero::Update()
+extern void Hero_Update_m362E8FDEE84DA54D1EC07C648A144105454DBDF9 (void);
+// 0x00000011 System.Void Hero::TempFire()
+extern void Hero_TempFire_m3E8F87219EDE29469D69D4DA0D6BA0D918C0BCC9 (void);
+// 0x00000012 System.Void Hero::OnTriggerEnter(UnityEngine.Collider)
+extern void Hero_OnTriggerEnter_mBFC05CE85B81A9037021B0FFF227EE9DED5062E8 (void);
+// 0x00000013 System.Single Hero::get_shieldLevel()
+extern void Hero_get_shieldLevel_mFF990AF357558DE556C8602CA01F7B1C16592529 (void);
+// 0x00000014 System.Void Hero::set_shieldLevel(System.Single)
+extern void Hero_set_shieldLevel_mA06397BE3E6B2DADC9BF724BF3E8AEA9E381CEA0 (void);
+// 0x00000015 System.Void Hero::.ctor()
+extern void Hero__ctor_m3126CC614545DC53234578096D17CEBB9724B950 (void);
+// 0x00000016 System.Void Main::Awake()
+extern void Main_Awake_m42D567D3335795929E26981775FCA41C7E406A98 (void);
+// 0x00000017 System.Void Main::SpawnEnemy()
+extern void Main_SpawnEnemy_m9B151AF8BB86F632C30C2AE536D88FD0E918131D (void);
+// 0x00000018 System.Void Main::DelayedRestart()
+extern void Main_DelayedRestart_mD39AF81F74900F1FFE58F5DEE3C800C604039976 (void);
+// 0x00000019 System.Void Main::Restart()
+extern void Main_Restart_m9AD5BFB7049D6D3D8B74CD270A35A87C8FBA5F77 (void);
+// 0x0000001A System.Void Main::HERO_DIED()
+extern void Main_HERO_DIED_m5CFF2573CB6FA1DF62B5765906D9375CF3FBEF1F (void);
+// 0x0000001B System.Void Main::.ctor()
+extern void Main__ctor_mC5886B5D00EEF6A6D8F96F3A84762F8AD71E51B6 (void);
+// 0x0000001C System.Void ProjectileHero::Awake()
+extern void ProjectileHero_Awake_m064DF4013385D847123797DF70AEB93681AF046E (void);
+// 0x0000001D System.Void ProjectileHero::Update()
+extern void ProjectileHero_Update_mFD4BA5B9ADC6C84F6FEE35AE301A92C3CD455D66 (void);
+// 0x0000001E System.Void ProjectileHero::.ctor()
+extern void ProjectileHero__ctor_m08A292ACF9657E615F043D6BF148ADCF54F7EADC (void);
+// 0x0000001F System.Void Shield::Start()
+extern void Shield_Start_mFC8ACA65D3DFAA139A3E48E2C0FB05306BC14E4D (void);
+// 0x00000020 System.Void Shield::Update()
+extern void Shield_Update_mBD8AA58F5898B567D7927299CF16329620C5DC3A (void);
+// 0x00000021 System.Void Shield::.ctor()
+extern void Shield__ctor_m84F15F62312B42210EEC42589A2E28CB8F9F93DE (void);
+static Il2CppMethodPointer s_methodPointers[33] = 
+{
+	BoundsCheck_Awake_mEF422329B76307B7C586A79853A32E8DAFB19F08,
+	BoundsCheck_LateUpdate_m360F5EFE7EF0C3F52892DA1FD0197118A0DE43C2,
+	BoundsCheck_get_isOnScreen_m0DA4539B3F6D6613334D03786C1C889452138ACC,
+	BoundsCheck_LocIs_mD7F85EF6E6B538E5584F40DA42B379A68D32EAF8,
+	BoundsCheck__ctor_m2B113074A041060F4F73AE365C11E463F7FD1E59,
+	Enemy_Awake_mB58E74200229275689E6D9ADCDB6443D4E426624,
+	Enemy_get_pos_mDBC4E8473067C4EA46ED6CB891F02283126CDC32,
+	Enemy_set_pos_m7DF5806ADB5012A9823738057BA3D0CDBFD7B762,
+	Enemy_Update_m4149CFC3AC081AF0D654D9BDB6BC9B5540CE03D8,
+	Enemy_Move_mC9846B6F1E720BD702338E14556D69034C01C597,
+	Enemy_OnCollisionEnter_mA8E3F644B8068B1BA5496C6AD2E43A65EBA978DB,
+	Enemy__ctor_mB6697627910F785A971C20C671DEFBA9D921D933,
+	Hero_get_S_mA827398B6A611A0C6348416DF8ABD0AFA60EE437,
+	Hero_set_S_m2315DD9324673B58B7D28FE93F4D21D65D2F63AE,
+	Hero_Awake_mBD288117C2AC749DF3A898A9040E4C013DB60418,
+	Hero_Update_m362E8FDEE84DA54D1EC07C648A144105454DBDF9,
+	Hero_TempFire_m3E8F87219EDE29469D69D4DA0D6BA0D918C0BCC9,
+	Hero_OnTriggerEnter_mBFC05CE85B81A9037021B0FFF227EE9DED5062E8,
+	Hero_get_shieldLevel_mFF990AF357558DE556C8602CA01F7B1C16592529,
+	Hero_set_shieldLevel_mA06397BE3E6B2DADC9BF724BF3E8AEA9E381CEA0,
+	Hero__ctor_m3126CC614545DC53234578096D17CEBB9724B950,
+	Main_Awake_m42D567D3335795929E26981775FCA41C7E406A98,
+	Main_SpawnEnemy_m9B151AF8BB86F632C30C2AE536D88FD0E918131D,
+	Main_DelayedRestart_mD39AF81F74900F1FFE58F5DEE3C800C604039976,
+	Main_Restart_m9AD5BFB7049D6D3D8B74CD270A35A87C8FBA5F77,
+	Main_HERO_DIED_m5CFF2573CB6FA1DF62B5765906D9375CF3FBEF1F,
+	Main__ctor_mC5886B5D00EEF6A6D8F96F3A84762F8AD71E51B6,
+	ProjectileHero_Awake_m064DF4013385D847123797DF70AEB93681AF046E,
+	ProjectileHero_Update_mFD4BA5B9ADC6C84F6FEE35AE301A92C3CD455D66,
+	ProjectileHero__ctor_m08A292ACF9657E615F043D6BF148ADCF54F7EADC,
+	Shield_Start_mFC8ACA65D3DFAA139A3E48E2C0FB05306BC14E4D,
+	Shield_Update_mBD8AA58F5898B567D7927299CF16329620C5DC3A,
+	Shield__ctor_m84F15F62312B42210EEC42589A2E28CB8F9F93DE,
+};
+static const int32_t s_InvokerIndices[33] = 
+{
+	983,
+	983,
+	935,
+	628,
+	983,
+	983,
+	982,
+	874,
+	983,
+	983,
+	853,
+	983,
+	1920,
+	1899,
+	983,
+	983,
+	983,
+	853,
+	976,
+	867,
+	983,
+	983,
+	983,
+	983,
+	983,
+	1932,
+	983,
+	983,
+	983,
+	983,
+	983,
+	983,
+	983,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	33,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
